@@ -21,8 +21,9 @@ public class Cat {
     }
 
     public String getInfo() {
-        return "Cat name:" + this.name + "Cat color:" + this.color + "Cat have moustache:" + this.haveMustache +
-                "Cat paws quantity:" + this.pawsQuantity + "Cat age:" + this.age + "Cat have tail:" + this.tail;
+        return "Cat name:" + this.name + " " + "Cat color:" + this.color + " " + "Cat have moustache:"
+                + this.haveMustache + " " + "Cat paws quantity:" + this.pawsQuantity + " " + "Cat age:" + this.age
+                + " " + "Cat have tail:" + this.tail;
     }
 
     public String getLimbsQuantity() {
