@@ -13,16 +13,19 @@ public class Main {
           System.out.println(rizhik.getInfo());
           System.out.println(rizhik.getLimbsQuantity());
 
-          String cold = "cold";
-          String warm = "warm";
-          Scanner myscan = new Scanner(System.in);
-          int temperature = myscan.nextInt();
-          if (temperature >= 0)
-               System.out.println(warm);
-          else
-               System.out.println(cold);
-          myscan.close();
 
+          Scanner myscan = new Scanner(System.in);
+
+          if (myscan.hasNextInt()) {
+               int a = myscan.nextInt();
+               {
+                    if (a > 0)
+                         System.out.println(a);
+               }
+          } else
+               myscan.close();
 
      }
+
+
 }
